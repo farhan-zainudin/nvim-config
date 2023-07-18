@@ -197,8 +197,15 @@ require('lazy').setup({
   --       Uncomment any of the lines below to enable them.
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',
+
+  -- filetree plugin for file exprorer
   require 'kickstart.plugins.filetree',
+
+  -- autopairs plugin for auto brackets
   require 'kickstart.plugins.autopairs',
+
+  -- ray-x go plugin for supercharging go development
+  require 'kickstart.plugins.ray-x',
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
   --    up-to-date with whatever is in the kickstart repo.
@@ -206,7 +213,7 @@ require('lazy').setup({
   --
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
   -- { import = 'custom.plugins' },
-}, {})
+},{})
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
