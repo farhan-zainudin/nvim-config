@@ -206,6 +206,10 @@ require('lazy').setup({
 
   -- ray-x go plugin for supercharging go development
   require 'kickstart.plugins.ray-x',
+
+  --- lazygit plugin for floating lazygit window
+  require 'kickstart.plugins.lazygit',
+
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
   --    You can use this folder to prevent any conflicts with this init.lua if you're interested in keeping
   --    up-to-date with whatever is in the kickstart repo.
@@ -213,7 +217,7 @@ require('lazy').setup({
   --
   --    For additional information see: https://github.com/folke/lazy.nvim#-structuring-your-plugins
   -- { import = 'custom.plugins' },
-},{})
+}, {})
 
 -- [[ Setting options ]]
 -- See `:help vim.o`
