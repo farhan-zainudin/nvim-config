@@ -198,9 +198,6 @@ require('lazy').setup({
   require 'kickstart.plugins.autoformat',
   require 'kickstart.plugins.debug',
 
-  -- filetree plugin for file exprorer
-  require 'kickstart.plugins.filetree',
-
   -- autopairs plugin for auto brackets
   require 'kickstart.plugins.autopairs',
 
